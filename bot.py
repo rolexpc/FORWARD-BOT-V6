@@ -1,5 +1,6 @@
 
 import asyncio
+from os import environ
 import logging 
 import logging.config
 from database import db 
