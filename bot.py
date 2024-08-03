@@ -15,7 +15,7 @@ from plugins import web_server
 logging.config.fileConfig('logging.conf')
 logging.getLogger().setLevel(logging.INFO)
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
-PORT = environ.get("PORT", "8080")
+PORT = environ.get("PORT", "8030")
 
 class Bot(Client): 
     def __init__(self):
