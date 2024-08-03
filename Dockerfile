@@ -1,11 +1,7 @@
-FROM python:3.10.8-slim-buster
-RUN apt update && apt upgrade -y
-RUN apt install git -y
-COPY requirements.txt /requirements.txt
-
-RUN cd /
-RUN pip install -U pip && pip install -U -r requirements.txt
+FROM python:3.10
 WORKDIR /app
-
-COPY . .
+COPY . /app/
+RUN pip install -r requirements.txt
+# Install ffmpeg using apt
+RUN apt update && apt install -y ffmpeg
 CMD ["python", "bot.py"]
