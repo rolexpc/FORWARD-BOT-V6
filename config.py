@@ -8,6 +8,7 @@ class Config:
     BOT_SESSION = os.environ.get("BOT_SESSION", "forward-bot") 
     DB_URL = os.environ.get("DB_URL", "mongodb+srv://Fahadh:Fahadh@cluster0.cpeyano.mongodb.net/")
     DB_NAME = os.environ.get("DB_NAME", "Fahadh")
+    PORT = int(os.environ.get("PORT", "8080"))
     OWNER_ID = [int(id) for id in os.environ.get("OWNER_ID", '1297128957').split()]
 
 
