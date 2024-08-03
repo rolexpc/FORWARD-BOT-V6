@@ -10,7 +10,7 @@ from pyrogram.raw.all import layer
 from pyrogram.enums import ParseMode
 from pyrogram.errors import FloodWait 
 from aiohttp import web
-from plugins import web_server
+from plugins.web_support import web_server
 
 logging.config.fileConfig('logging.conf')
 logging.getLogger().setLevel(logging.INFO)
@@ -60,11 +60,12 @@ class Bot(Client):
            logging.info(f"Restart message status"
                  f"success: {success}"
                  f"failed: {failed}")
-           app = web.AppRunner(await web_server())
-           await app.setup()
-           bind_address = "0.0.0.0"
-           await web.TCPSite(app, bind_address, PORT).start()
-
+        app = web.AppRunner(await web_server())
+        await app.setup()
+        bind_address = "0.0.0.0"
+        await web.TCPSite(app, bind_address, Config.PORT).start()
+        logging.info(f"{me.first_name} ✅✅ BOT started successfully ✅✅")
+        
     async def stop(self, *args):
         msg = f"@{self.username} stopped. Bye."
         await super().stop()
