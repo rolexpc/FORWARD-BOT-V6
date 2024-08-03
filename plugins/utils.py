@@ -68,10 +68,3 @@ def get_readable_time(seconds: int) -> str:
     result += f"{seconds}s"
     return result
 
-
-
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
