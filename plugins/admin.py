@@ -1,12 +1,3 @@
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
-
-
-
-
 import os, sys, asyncio, time
 from config import *
 from database import *
@@ -51,12 +42,3 @@ async def donate(client, message):
 	await message.reply_text(text = text,reply_markup = keybord)
 
 
-
-
-
-
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
