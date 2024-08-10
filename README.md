@@ -1,5 +1,8 @@
 <img src="https://telegra.ph/file/a25b856c6c96d4aa0d75b.jpg" alt="logo" target="/blank">
 
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+AC+Forwaed+Bots!)
+</p>
+
 <h1 align="center">
  <b><a href="https://t.me/OTT_ARAKAL_THERAVAD_MOVIESS" target="/blank"> Ultra Forward Bot </a></>
 </h1>
