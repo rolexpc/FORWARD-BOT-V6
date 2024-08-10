@@ -1,7 +1,7 @@
-<img src="https://graph.org/file/7f7dcc89135e7d6c64bbb.jpg" alt="logo" target="/blank">
+<img src="https://telegra.ph/file/a25b856c6c96d4aa0d75b.jpg" alt="logo" target="/blank">
 
 <h1 align="center">
- <b><a href="https://t.me/MadflixForwardBot" target="/blank"> Ultra Forward Bot </a></>
+ <b><a href="https://t.me/OTT_ARAKAL_THERAVAD_MOVIESS" target="/blank"> Ultra Forward Bot </a></>
 </h1>
 
 <p align="center">🩵 Thanks for Being Here 🩵</p>
