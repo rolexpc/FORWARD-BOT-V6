@@ -9,7 +9,7 @@ class Config:
     DB_URL = os.environ.get("DB_URL", "mongodb+srv://anus01:anus01@cluster0.dy9fh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     DB_NAME = os.environ.get("DB_NAME", "anus01")
     PORT = int(os.environ.get("PORT", "8080"))
-    OWNER_ID = [int(id) for id in os.environ.get("OWNER_ID", '1297128957').split()]
+    OWNER_ID = [int(id) for id in os.environ.get("OWNER_ID", '7425490417').split()]
 
 
 class temp(object): 
